@@ -2,12 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Navbar from './Navbar';
 import reportWebVitals from './reportWebVitals';
+import Container_1 from './Container_1';
+import Container_2 from './Container_2';
+import Container_3 from './Container_3';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Navbar />
+    <Container_1 />
+    {/* <App /> */}
+    <Container_2 />
+    <Container_3 />
   </React.StrictMode>
 );
 
