@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Container_1.css";
 import Countdown from "./Countdown";
-// import Image_1 from "./assets/image_2.png";
+// import Image_1 from "./assets/im_1.png";
 
 
 const Container_1 = () => {
@@ -39,25 +39,26 @@ const Container_1 = () => {
 
       </div>
       <div className="title">
-        <span className="highlight">MASTER OF COMPUTER APPLICATION </span>
+        <span className="highlight">CODING CLUB </span>
 
         <br></br>
         <span>Organize</span><br></br>
-        <span className="highlight">HACK ELLITE 2025</span>
+        <span className="highlight">HACK ELITE 2025</span>
       </div>
 
       <p className="subtitle">Challenge your creativity, solve real-world problems, and win exciting prizes!</p>
       <div>
-      <h1>Hackathon </h1>
-    </div>
-    <Countdown />
+        {/* <h1>Hackathon </h1> */}
+      </div>
+      <Countdown />
 
-      <button className="register-btn">Register Now</button>
-    </div>
+      <a href="https://forms.gle/uQZYnKvNwe4Sk9jA8" target="_blank" rel="noopener noreferrer">
+        <button className="register-btn">Register Now</button>
+      </a>    </div>
 
   );
 };
 
 export default Container_1;
 
-git remote add origin https://github.com/Hari022002/Hack-Elite
+// git remote add origin https://github.com/Hari022002/Hack-Elite

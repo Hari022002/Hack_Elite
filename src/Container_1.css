@@ -10,7 +10,7 @@
     padding: 20px;
   }
   .banner {
-    background: radial-gradient(circle, rgba(0,6,190,1) 0%, rgba(14,0,98,1) 100%);
+    /* background: radial-gradient(circle, rgba(0,6,190,1) 0%, rgba(14,0,98,1) 100%); */
   }
   
   .countdown-container {
@@ -23,9 +23,9 @@
     padding: 5px;
   }
  
-  .highlight {
-    color: #36ff69;
-  }
+  /* .highlight {
+    color: #f4fff7;
+  } */
   .register-btn {
     background: #36ff69;
     color: black;

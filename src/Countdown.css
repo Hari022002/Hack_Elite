@@ -10,8 +10,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: black;
-    color: white;
+    background: #36ff69;
+    color: rgb(0, 0, 0);
     padding: 15px;
     border-radius: 10px;
     font-size: 2rem;

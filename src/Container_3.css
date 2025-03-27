@@ -1,37 +1,69 @@
-/* body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
-  } */
-  
-  h2 {
-    text-align: center;
-    color: #333;
+.track-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+img{
+  height: 300px;
+} 
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+}
+
+.tracks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.problem-card {
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 45%;
+  min-width: 300px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.problem-card:hover {
+  transform: translateY(-5px);
+}
+
+.problem-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #36ff69;
+  margin-bottom: 10px;
+}
+
+.problem-card p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .tracks {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    max-width: 800px;
-    margin: 0 auto;
+
+  .problem-card {
+    width: 90%;
   }
-  
-  li {
-    background: #fff;
-    margin: 10px 0;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  h3 {
-    margin: 0 0 10px 0;
-    color: #007bff;
-  }
-  
-  p {
-    margin: 0;
-    color: #555;
-  }
-  
+}
